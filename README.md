@@ -20,11 +20,11 @@
 | 言語 | Java（JDK 17 など） |
 | フレームワーク | Servlet / JSP（Jakarta EE） |
 | データベース | MySQL 8.0 |
-| ビルドツール | Apache Maven または Eclipse Dynamic Web Project |
+| ビルドツール | Eclipse Dynamic Web Project |
 | アプリケーションサーバー | Apache Tomcat 10.x |
-| IDE | Eclipse / IntelliJ IDEA / VS Code |
+| IDE | Eclipse / VS Code |
 | バージョン管理 | Git / GitHub |
-| OS | macOS / Windows |
+| OS | Windows11 |
 
 ---
 
@@ -112,12 +112,13 @@ project/
 
 ---
 
-## 🧭 今後の拡張予定
-- Bootstrap / Vue.js の導入でUI改善  
-- REST API 化（JSON対応）  
-- Docker による環境構築自動化  
+## 🧭 今後の拡張予定  
+- python・VBA による演算自動化  
 - ログイン履歴・アクセスログの分析機能追加  
-- JUnit / Mockito による単体テストの充実  
+-＜以下、できれば＞
+-  JUnit / Mockito による単体テストの充実
+- Bootstrap / Vue.js の導入でUI改善  
+- REST API 化（JSON対応）
 
 ---
 
