@@ -1,0 +1,142 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:rgb(38, 107, 134);
+  background-image: url(../images/img_1284-h.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  /* height: 100vh; ビューポートの高さに合わせると
+  ページが大きい時に下が切れる */
+  /* font-family: "メイリオ", sans-serif; */
+}
+
+main{
+    background-color: #fff;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+h1{
+    /* 自己紹介メインタイトル */
+    font-size: 2rem;
+    background-image: url(../images/img_1284-h.jpg);
+    /* background-color: rgb(38, 107, 134); */
+    color: #fff;
+    text-align: center;
+}
+/* ”お気に入りの場所”等真ん中に */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 10%;
+    gap: 10px;
+}
+.items{
+    /* padding-top: 1.5rem; */
+    background: 0bd;
+    color: #fff;
+    padding: 0px;
+    background-color: #6593c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30px; /* 必要なら高さの下限を設定 */
+    text-align: center; /* 追加：文字を中央揃え */
+    border-radius: 10px;
+    }
+
+.items a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.items img{
+    width: 200px;
+    height: 300px;
+    object-fit: contain; /* 画像を枠いっぱいに表示し、はみ出た部分は切り取る */
+    display: block;
+    margin: 0 auto;
+    }
+
+    p {
+    padding-left: 2em;     /* 全行の左側に余白 */
+    padding-right: 2em;    /* 行末に余白 */
+    }
+
+h2{
+    margin-top: 1rem;
+    font-size: 22px;
+    color: #333;
+    border-left: #c70e0e solid 10px;
+    border-bottom: #333 solid 2px;
+    margin-bottom: 0.5rem;
+}
+
+img{
+  width: 100%;      /* 親要素に合わせて可変 */
+  /* max-width: 1000px; /* 最大幅を指定（例: 300px）
+  /* height: auto;     縦横比を維持して高さ自動調整 */
+  /* display: block;   余計な隙間をなくす */ 
+}
+
+button {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-size: 1rem;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 1em 0;
+}
+/* .button{
+    margin-top: 1rem;
+    position: absolute;
+    right: 0;
+} */
+
+.button a{
+    color: #fff;
+    background-color: #f00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button a:hover{
+    background-color: orange;
+}
+
+/* うちの会社どこいく？への移動button*/
+/*<style>*/
+.button-class {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+  }
+  
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    }
+
+	button:hover {
+	  transform: translateX(200px);
+	  transition: transform 0.3s ease;
+	}
+
